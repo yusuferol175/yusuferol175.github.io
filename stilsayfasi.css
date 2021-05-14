@@ -1,0 +1,185 @@
+﻿
+body {
+    margin: 0;
+}
+.bütünlük {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: lavender;
+    width: 100%;
+    height: 1100px;
+}
+
+header {
+    background-color: gray;
+    width: 100%;
+    height: 190px;
+}
+
+.logo {
+    margin-left: 80px;
+    width: 20%;
+    height: 150px;
+}
+
+.logo img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.siteisim {
+    margin-top: 10px;
+    margin-left: 145px;
+    font-size: 25px;
+    color: white;
+    width: 235px;
+    text-decoration: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: forestgreen;
+    }
+li {
+    list-style-type: none;
+}
+li a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+
+    color: red;
+}
+
+.çizgi {
+    border: 5px black;
+    background-color: lavender;
+    width: 75%;
+    height: 785px;
+    margin-left: 175px;
+    margin-top: -65px;
+    border-left-style: double;
+    border-right-style: double;
+}
+.kategori {
+    clear: both;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.kategori1 {
+    width: 10%;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.dipnot {
+    background-color: gray;
+    width: 100%;
+    height: 150px;
+    font-size:25px;
+
+}
+
+.üyegiris {
+    background-color: darkgray;
+    width: 100%;
+    height: 30px;
+    border:2px ;
+}
+.giris{
+    float:right;
+    width:50%;
+    margin-left:0px;
+    margin-top:3px;
+}
+.anasayfa{
+    margin-top: 33px;
+    margin-left: 25px;
+    height:200px;
+}
+.buton {
+   
+   background-color:lavender;
+   color:black;
+   margin-left: 0px;
+   
+
+}
+
+.buton:hover {
+    color:red;
+     
+}
+
+.resim {
+    
+    width: 60%;
+    height: 250px;
+    margin-right: 20px;
+    margin-top: -210px;
+    float:right;
+}
+
+    .resim img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .rsmyazi{
+
+        height:200px;
+        width:40%;
+        font-size:25px;
+        margin-top:0px;
+    }
+    .vid {
+        width: 50%;
+        height: 250px;
+        margin-right: 20px;
+        margin-top: -210px;
+        float: right;
+        
+    }
+
+    .vid video {
+       
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .hkndresim {
+        width: 60%;
+        height: 573px;
+        margin-right: 200px;
+        margin-top: 30px;
+        float: right;
+    }
+    .hkndresim img {
+        height: 573px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .msjyazi{
+        height:30px;
+        font-size:30px;
+        width:70%;
+
+    }
+
+    

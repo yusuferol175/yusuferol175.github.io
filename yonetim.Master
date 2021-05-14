@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="yonetim.master.cs" Inherits="Arasınav.yonetim" %>
+
+<%@ Register Src="~/usercontrol/uyegirisi.ascx" TagPrefix="uc1" TagName="uyegirisi" %>
+<%@ Register Src="~/usercontrol/yonetimusercontrol.ascx" TagPrefix="uc1" TagName="yonetimusercontrol" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>YusufEROL.COM</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="stilsayfasi.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="bütünlük"> <header>
+
+        <div class="logo"><img src="logo.png" border="2px" /></div>
+      
+        <div class="siteisim"><li><strong><a href="yAnasayfasi.aspx">Yusuf EROL</a></strong></li></div>
+
+                           
+    </header>
+
+    <div class="üyegiris"><div class="giris"> <uc1:uyegirisi runat="server" ID="uyegirisi" /> </div></div>
+    <div class="kategori1"> <strong>Menü</strong><br /><div class="kategori buton"> <uc1:yonetimusercontrol runat="server" ID="yonetimusercontrol" />
+    </div></div>
+    
+
+        <div class="çizgi">
+            <div class="anasayfa">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+
+        </div>
+        </div>
+
+
+            
+            
+        
+
+            </div>
+        
+    </form>
+    
+</body>
+</html>
