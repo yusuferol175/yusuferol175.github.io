@@ -1,8 +1,0 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="kullanicimenucontrol.ascx.cs" Inherits="Arasınav.usercontrol.kullanicimenucontrol" %>
-<link href="../stilsayfasi.css" rel="stylesheet" type="text/css" />
-<asp:Button ID="btnAnasayfa" runat="server" Text="Anasayfa" BackColor="Lavender" BorderStyle="None" Font-Bold="False" Font-Size="15pt" Height="34px" Width="115px" CssClass="buton" OnClick="btnAnasayfa_Click" /><br /><br />
-<asp:Button ID="btnBelgeler" runat="server" Text="Belgeler" BackColor="Lavender" BorderStyle="None" Font-Size="15pt" Height="34px" Width="115px" CssClass="buton" OnClick="btnBelgeler_Click" /><br /><br />
-<asp:Button ID="btnResimler" runat="server" Text="Resimler" BackColor="Lavender" BorderStyle="None" Font-Size="15pt" Height="34px" Width="115px" CssClass="buton" OnClick="btnResimler_Click" /><br /><br />
-<asp:Button ID="btnVideolar" runat="server" Text="Videolar" BackColor="Lavender" BorderStyle="None" Font-Size="15pt" Height="34px" Width="115px" CssClass="buton" OnClick="btnVideolar_Click" /><br /><br />
-<asp:Button ID="btnHakkimda" runat="server" Text="Hakkımda" BackColor="Lavender" BorderStyle="None" Font-Size="15pt" Height="34px" Width="115px" CssClass="buton" OnClick="btnHakkimda_Click" /><br /><br />
-<asp:Button ID="btnIletisim" runat="server" Text="İletişim" BackColor="Lavender" BorderStyle="None" Font-Size="15pt" Height="34px" Width="115px" CssClass="buton" OnClick="btnIletisim_Click" />
